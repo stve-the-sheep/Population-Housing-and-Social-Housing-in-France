@@ -32,7 +32,7 @@ def load_data(nrows):
     ]
 
 # Charger les données en spécifiant le séparateur (;) et les noms de colonnes et les colonne skip car pas normal
-    data = pd.read_csv('departements.csv', sep=';', nrows=nrows, skiprows=[0, 2, 8], names=column_names)
+    data = pd.read_csv('logements-et-logements-sociaux-dans-les-departements.csv', sep=';', nrows=nrows, skiprows=[0, 2, 8], names=column_names)
 
     return data
 
