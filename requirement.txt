@@ -1,6 +1,6 @@
-pip install streamlit
-pip install pandas
-pip install plotly
-pip install altair
-pip install matplotlib
-pip install seaborn
+streamlit
+pandas
+plotly
+altair
+matplotlib
+seaborn
